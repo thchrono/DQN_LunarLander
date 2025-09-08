@@ -1,0 +1,5 @@
+python==3.11.13
+gymnasium==1.2.0
+numpy==2.2.6
+matplotlib==3.10.3
+torch==2.7.1
