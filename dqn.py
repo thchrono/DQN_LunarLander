@@ -221,7 +221,7 @@ class DQN_Network():
         # save model weights
         torch.save(self.model.state_dict(), "dqn_model.pth")
 
-        # Average rewards per 100 episodes
+        # average rewards per 100 episodes
         window_size = 100
         averaged_rewards = []
         for i in range(0, len(self.episode_tot_reward), window_size):
