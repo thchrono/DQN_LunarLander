@@ -61,8 +61,8 @@ A neural network is trained with **experience replay** and a **target network** 
 
 ## Files
 
-- `dqn.py` → DQN model and agent implementation  
-- `agent.py` → Training loop and execution script  
+- `dqn.py` → DQN model and agent implementation
+- `agent.py` → Execution script  
 - `dqn_lunarlander.gif` → GIF showing 8 episodes of the trained agent  
 - `training_rewards.png` → Plot of average reward progression over training  
 - `dqn_model.pth` → Saved DQN model weights (pretrained, can be reused)  
